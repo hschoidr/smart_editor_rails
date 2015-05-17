@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib,vendor}/**/*"] + ["LGPL-LICENSE.md", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 3.2.9"
+  s.add_dependency "rails", "~> 4.2.1"
   s.add_dependency "carrierwave"
   # s.add_dependency "jquery-rails"
   s.add_runtime_dependency 'execjs'
