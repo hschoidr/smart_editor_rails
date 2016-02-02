@@ -6,7 +6,7 @@ require 'rubygems/package_task'
 require "smart_editor/version"
 
 # Describe your gem and declare its dependencies:
-spec = Gem::Specification.new do |s|
+Gem::Specification.new do |s|
   s.name        = "smart_editor"
   s.version     = SmartEditor::VERSION
   s.authors     = "Younghun Choi"
@@ -27,9 +27,4 @@ spec = Gem::Specification.new do |s|
 
   s.add_development_dependency "sqlite3"
 
-end
-
-Gem::PackageTask.new(spec) do |pkg|
-  pkg.need_zip = true
-  pkg.need_tar = true
 end
